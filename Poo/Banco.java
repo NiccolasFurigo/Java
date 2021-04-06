@@ -10,6 +10,7 @@ public class Banco {
         ContaBanco p2 = new ContaBanco();
         p2.setNumConta(2222);
         p2.setDono("Creuza");
+        p2.abrirConta("CP");
         
         p1.estado();
         p2.estado();

@@ -55,9 +55,9 @@ public class ControleRemoto implements Controlador {
         if(this.getLigado()){
             System.out.println("Está ligado? " + this.getLigado());
             System.out.println("Está tocando? " + this.getTocando());
-            System.out.println("Volume: " + this.getVolume());
-            for(int i = 0; i < this.getVolume(); i++){
-                System.out.println('|');
+            System.out.print("Volume: " + this.getVolume());
+            for(int i = 0; i < this.getVolume(); i += 10){
+                System.out.print('|');
             }
             System.out.println("");
         }

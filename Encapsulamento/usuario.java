@@ -6,6 +6,7 @@ public class usuario {
         ControleRemoto c = new ControleRemoto();
         c.play();
         c.maisVolume();
+        c.maisVolume();
         c.abrirMenu();
         c.fecharMenu();
     }

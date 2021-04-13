@@ -1,8 +1,7 @@
 package Herança2;
 
-public class Bosista extends Pessoa {
+public class Bolsista extends Pessoa {
     private float bolsa;
-
     public void renovarBolsa(){
         System.out.println("Renovando bolsa do " + this.nome);
     }
